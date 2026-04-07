@@ -17,7 +17,7 @@ include 'header.php';
       <div class="col-md-6 ds-about-text">
         <h1>À propos de moi</h1>
         <p>
-          Étudiant en première année de BTS SIO (option SLAM) à l’ESPL Angers, je me consacre au développement d'applications et à la qualité logicielle.
+          Étudiant en BTS SIO (option SLAM) à l’ESPL Angers, je me consacre au développement d'applications et à la qualité logicielle.
 
           Ce portfolio rassemble mes projets et illustre ma progression technique ainsi que mes compétences acquises, notamment lors de mon alternance à la CNR.
         </p>
