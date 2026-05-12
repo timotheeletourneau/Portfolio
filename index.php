@@ -33,12 +33,54 @@ include 'header.php';
 </section>
 
 <!-- Resume / About Preview -->
+<!-- Section noire en bas (IDENTIQUE à index.php) -->
 <section class="ds-resume-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-        <h2>Portfolio</h2>
-        <p><a href="/projets" class="cta-link">→ Voir les projets ←</a></p>
+      <div class="col-lg-12">
+        <h2 class="portfolio-title">Stack technique</h2>
+        <div class="competences-list">
+          <!-- Python -->
+          <div class="competence-item">
+            <i class="fab fa-python"></i>
+            <span>Python</span>
+          </div>
+          <!-- HTML5 -->
+          <div class="competence-item">
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+          <!-- CSS3 -->
+          <div class="competence-item">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS3</span>
+          </div>
+          <!-- JavaScript -->
+          <div class="competence-item">
+            <i class="fab fa-js-square"></i>
+            <span>JavaScript</span>
+          </div>
+          <!-- PHP -->
+          <div class="competence-item">
+            <i class="fab fa-php"></i>
+            <span>PHP</span>
+          </div>
+          <!-- Git -->
+          <div class="competence-item">
+            <i class="fab fa-git-alt"></i>
+            <span>Git</span>
+          </div>
+          <!-- MySQL -->
+          <div class="competence-item">
+            <i class="fas fa-database"></i>
+            <span>MySQL</span>
+          </div>
+          <!-- C# -->
+          <div class="competence-item">
+            <i class="fab fa-microsoft"></i>
+            <span>C#</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
