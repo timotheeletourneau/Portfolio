@@ -50,14 +50,14 @@ include 'header.php';
         <span class="date">2022 - 2024</span>
         <h3>Brevet de technicien supérieur SIO option SISR</h3>
         <i>Solutions d'Infrastructure, Systèmes et Réseaux</i>
-        <p>Angers | Formation initiale avec alternance chez <strong>UAPL</strong></p>
+        <p>Bellevigne-en-Layon | Formation initiale avec alternance chez <strong>UAPL</strong></p>
         <a href="https://timoportfolio0.wordpress.com/" target="_blank"><i>▶</i> Voir mon ancien portfolio</a>
       </div>
     </div>
     <div class="timeline-event">
       <div class="timeline-content">
         <span class="date">2025 - 2027</span>
-        <h3>Brevet de technicien supérieur option SLAM</h3>
+        <h3>Brevet de technicien supérieur SIO option SLAM</h3>
         <i>Solutions Logicielles et Applications Métiers</i>
         <p>Lyon | Formation initiale avec alternance chez <strong>CNR</strong></p>
       </div>

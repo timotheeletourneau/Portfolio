@@ -11,7 +11,7 @@ include 'header.php';
     <img src="assets/images/world-models.png">
       <div class="window-content">
       <h3>Des modèles de langage aux modèles de monde</h3>
-      <p style="color: #FFD700;">Comment l'IA passe de la génération de texte à la compréhension du monde réel, avec les enjeux éthiques et juridiques.</p>
+      <p style="color: #CBFE00;">Comment l'IA passe de la génération de texte à la compréhension du monde réel, avec les enjeux éthiques et juridiques.</p>
   </div>
 </div>
 

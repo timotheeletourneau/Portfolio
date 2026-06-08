@@ -22,7 +22,7 @@ include 'header.php';
             Étudiant en BTS SIO (option SLAM) à l’ESPL Angers, je me consacre au développement d'applications et à la qualité logicielle.
             Ce portfolio rassemble mes projets et illustre ma progression technique ainsi que mes compétences acquises lors de mon alternance à la CNR.
           </p>
-          <a href="assets/cv.pdf" class="ds-download-button" target="_blank">
+          <a href="assets/cv-ajour.pdf" class="ds-download-button" target="_blank">
             Télécharger mon CV <i class="ri-download-line"></i>
           </a>
         </div>
