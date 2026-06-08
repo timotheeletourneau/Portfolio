@@ -32,18 +32,6 @@ include 'header.php';
   </div>
 </section>
 
-<!-- Resume / About Preview -->
-<section class="ds-resume-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Portfolio</h2>
-        <p><a href="/projets" class="cta-link">→ Voir les projets ←</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <?php include 'footer.php'; ?>
 <script src="assets/js/typing-animation.js"></script>
 </body>

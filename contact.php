@@ -6,22 +6,29 @@ $page_title = 'Contact - Portfolio Timothée Letourneau';
 include 'header.php';
 ?>
 
-<section class="ds-resume-section">
+<section class="ds-banner">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>À propos de moi</h2>
-        <p>
-          Bonjour ! Je suis Timothée Letourneau, développeur logiciel basé à Angers, France.
-          Passionné par la programmation et le développement web, je travaille sur des projets
-          variés allant des applications web aux solutions logicielles.
-        </p>
+    <div class="row align-items-center">
+      <div class="col-lg-7 ds-banner-left" data-aos="fade-right">
+        <h1 class="ds-banner-hed">
+          Me contacter<br>
+        </h1>
+        <!-- Conteneur FIXE pour éviter les déplacements -->
+        <div style="height: 36px; margin-top: 15px; position: relative; width: fit-content;">
+          <div class="typing-animation"></div>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <figure>
-          <img src="assets/images/about-image.png" class="ds-image-shadow" alt="Timothée Letourneau">
-          <figcaption>Portrait de Timothée</figcaption>
-        </figure>
+      <div class="col-lg-5" data-aos="fade-left">
+        <!-- Custom card à la place de la photo -->
+        <div class="custom-card">
+          <div class="card-icon">
+            <i class="fas fa-comment-dots"></i>
+          </div>
+          <div class="card-content">
+            <h3>Contact</h3>
+            <p>Email : tletourneau78@gmail.com</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -24,6 +24,9 @@
 
   <!-- Main CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -34,9 +37,9 @@
 
       <!-- Icônes réseaux sociaux à gauche -->
       <ul class="ds-social">
-        <li><a href="https://github.com/" target="_blank"><i class="ri-github-fill"></i></a></li>
-        <li><a href="https://stackoverflow.com/" target="_blank"><i class="ri-stack-overflow-line"></i></a></li>
-        <li><a href="https://www.linkedin.com/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+        <li><a href="https://github.com/" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a></li>
+        <li><a href="https://stackoverflow.com/" target="_blank" title="Stack Overflow"><i class="ri-stack-overflow-line"></i></a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a></li>
       </ul>
 
       <!-- Menu grand écran (liens en bandeau) -->
