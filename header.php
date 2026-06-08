@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $page_title; ?></title>
 
+  <!-- ======================================================================
+       DÉPENDANCES EXTERNES (CDN)
+       - Google Fonts : Polices Poppins (texte) et DM Serif Display (titres)
+       - Remixicon 2.5.0 : Icônes modernes (ex: ri-github-fill)
+       - Bootstrap 5.0.2 : Framework CSS/JS pour le responsive design
+       - AOS 2.3.1 : Animations au scroll (data-aos="fade-right")
+       - Slick Carousel 1.8.1 : Slider pour les témoignages
+       - Font Awesome 6.4.0 : Icônes supplémentaires (ex: fa-python, fa-html5)
+       ====================================================================== -->
+  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,26 +26,31 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- AOS -->
+  <!-- AOS (Animate On Scroll) -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Slick Carousel -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
-  <!-- Main CSS -->
+  <!-- Main CSS (styles personnalisés) -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-  <!-- Bandeau de navigation -->
+  <!-- ======================================================================
+       BARRE DE NAVIGATION (ds-topbar)
+       - Conteneur noir en haut de la page
+       - Contient : icônes réseaux sociaux + menu (desktop/mobile)
+       ====================================================================== -->
   <div class="ds-topbar">
     <div class="ds-topbar-inner">
 
       <!-- Icônes réseaux sociaux à gauche -->
+      <!-- Utilise Remixicon (ri-github-fill, ri-linkedin-fill, etc.) -->
       <ul class="ds-social">
         <li><a href="https://github.com/" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a></li>
         <li><a href="https://stackoverflow.com/" target="_blank" title="Stack Overflow"><i class="ri-stack-overflow-line"></i></a></li>
@@ -43,6 +58,7 @@
       </ul>
 
       <!-- Menu grand écran (liens en bandeau) -->
+      <!-- Affiché uniquement sur écrans > 1150px (voir media queries dans main.css) -->
       <nav class="ds-menu-desktop">
         <a href="index.php">Accueil</a>
         <a href="about.php">À propos</a>
@@ -53,6 +69,8 @@
       </nav>
 
       <!-- Burger petit écran -->
+      <!-- Affiché uniquement sur écrans <= 1150px (voir media queries dans main.css) -->
+      <!-- Géré par JavaScript dans main.js -->
       <nav class="ds-menu-mobile">
         <div class="burger-wrapper">
           <button class="burger-btn" id="burgerBtn">
@@ -74,7 +92,12 @@
     </div>
   </div>
 
-  <!-- Header (icônes sociales + espace) -->
+  <!-- ======================================================================
+       HEADER (ds-header)
+       - Zone sous la barre de navigation
+       - Peut contenir des éléments spécifiques selon la page
+       - La classe $header_class permet de personnaliser le style par page
+       ====================================================================== -->
   <header class="ds-header <?php echo isset($header_class) ? $header_class : ''; ?>">
     <div class="container">
     </div>

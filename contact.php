@@ -1,11 +1,23 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+/* ======================================================================
+   PAGE "CONTACT"
+   - Affiche tes coordonnées
+   - error_reporting activé (à désactiver en production)
+   ====================================================================== */
+
+// ⚠️ À DÉSACTIVER EN PRODUCTION :
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 
 $page_title = 'Contact - Portfolio Timothée Letourneau';
 include 'header.php';
 ?>
 
+<!-- ======================================================================
+     BANNIÈRE "CONTACT" (ds-banner)
+     - Même structure que les autres pages
+     - Colonne de droite : carte personnalisée au lieu de la photo
+     ====================================================================== -->
 <section class="ds-banner">
   <div class="container">
     <div class="row align-items-center">
@@ -18,8 +30,10 @@ include 'header.php';
           <div class="typing-animation"></div>
         </div>
       </div>
+      
       <div class="col-lg-5" data-aos="fade-left">
-        <!-- Custom card à la place de la photo -->
+        <!-- Carte personnalisée à la place de la photo -->
+        <!-- Utilise Font Awesome (fas fa-comment-dots) pour l'icône -->
         <div class="custom-card">
           <div class="card-icon">
             <i class="fas fa-comment-dots"></i>
