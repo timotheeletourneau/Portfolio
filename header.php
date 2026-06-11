@@ -52,9 +52,9 @@
       <!-- Icônes réseaux sociaux à gauche -->
       <!-- Utilise Remixicon (ri-github-fill, ri-linkedin-fill, etc.) -->
       <ul class="ds-social">
-        <li><a href="https://github.com/" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a></li>
-        <li><a href="https://stackoverflow.com/" target="_blank" title="Stack Overflow"><i class="ri-stack-overflow-line"></i></a></li>
-        <li><a href="https://www.linkedin.com/" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a></li>
+        <li><a href="https://github.com/timotheeletourneau" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a></li>
+        <li><a href="https://stackoverflow.com/users/32826115/timoth%c3%a9e-letourneau" target="_blank" title="Stack Overflow"><i class="ri-stack-overflow-line"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/timothee-letourneau/" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a></li>
       </ul>
 
       <!-- Menu grand écran (liens en bandeau) -->
@@ -102,3 +102,5 @@
     <div class="container">
     </div>
   </header>
+<script src="assets/js/main.js"></script>
+</body>
